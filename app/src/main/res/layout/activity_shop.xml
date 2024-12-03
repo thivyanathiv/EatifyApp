@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+  <!-- App Name -->
+  <TextView
+      android:id="@+id/tvAppName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Eatify"
+      android:textSize="28sp"
+      android:textStyle="bold"
+      android:gravity="center"
+      android:textColor="#FF5722"
+      android:paddingBottom="16dp" />
+
+  <!-- Search Menu -->
+  <EditText
+      android:id="@+id/etSearch"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:hint="Search..."
+      android:drawableStart="@android:drawable/ic_menu_search"
+      android:drawablePadding="8dp"
+      android:padding="12dp"
+      android:background="@android:drawable/editbox_background"
+      android:layout_marginBottom="16dp" />
+
+  <!-- Shop List -->
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+      <!-- Shop 1 with Image -->
+      <LinearLayout
+          android:id="@+id/Shop1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="12dp"
+          android:background="#F5F5F5"
+          android:layout_marginBottom="16dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/img1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR Chaii"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginStart="12dp" />
+      </LinearLayout>
+
+      <!-- Shop 2 with Image -->
+      <LinearLayout
+          android:id="@+id/Shop2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="12dp"
+          android:background="#F5F5F5"
+          android:layout_marginBottom="16dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/img2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aahaa"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginStart="12dp" />
+      </LinearLayout>
+
+      <!-- Shop 3 with Image -->
+      <LinearLayout
+          android:id="@+id/Shop3"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="12dp"
+          android:background="#F5F5F5"
+          android:layout_marginBottom="16dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/img3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Treatoo"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginStart="12dp" />
+      </LinearLayout>
+
+      <!-- Shop 4 with Image -->
+      <LinearLayout
+          android:id="@+id/Shop4"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="12dp"
+          android:background="#F5F5F5"
+          android:layout_marginBottom="16dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/img4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SixFlave"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginStart="12dp" />
+      </LinearLayout>
+
+      <!-- Shop 5 with Image -->
+      <LinearLayout
+          android:id="@+id/Shop5"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:padding="12dp"
+          android:background="#F5F5F5"
+          android:layout_marginBottom="16dp"
+          android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/img5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GamaGama"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:layout_marginStart="12dp" />
+      </LinearLayout>
+
+    </LinearLayout>
+  </ScrollView>
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottomNavigationView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:menu="@menu/bottom_nav_menu" />
+</LinearLayout>

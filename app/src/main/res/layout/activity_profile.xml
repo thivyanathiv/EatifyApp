@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="Name"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/nameTextView"
+        app:layout_constraintEnd_toStartOf="@id/nameTextView" />
+
+    <EditText
+        android:id="@+id/nameTextView"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="56dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="Email"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/emailTextView"
+        app:layout_constraintEnd_toStartOf="@id/emailTextView" />
+
+    <EditText
+        android:id="@+id/emailTextView"
+        android:layout_width="200dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="36dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addressTextView" />
+
+    <TextView
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_marginEnd="40dp"
+        android:text="Address"
+        android:textSize="20sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/addressTextView"
+        app:layout_constraintEnd_toStartOf="@id/addressTextView" />
+
+    <EditText
+        android:id="@+id/addressTextView"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phoneTextView" />
+
+    <TextView
+    android:layout_width="98dp"
+    android:layout_height="34dp"
+    android:layout_marginEnd="40dp"
+    android:text="Phone No"
+    android:textSize="20sp"
+    app:layout_constraintBaseline_toBaselineOf="@id/phoneTextView"
+    app:layout_constraintEnd_toStartOf="@id/phoneTextView" />
+
+    <EditText
+        android:id="@+id/phoneTextView"
+        android:layout_width="200dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:padding="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.857"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameTextView" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="140dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Save Details"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTextView"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

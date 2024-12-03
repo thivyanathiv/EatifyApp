@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView for displaying orders -->
+    <view class="androidx.appcompat.app.AlertController$RecycleListView"
+        android:id="@+id/ordersRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="16dp"
+        android:layout_weight="1" />
+
+    <!-- Food Name and Price -->
+    <TextView
+        android:id="@+id/foodNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Food Item"
+        android:textSize="20sp"
+        android:padding="8dp" />
+
+    <TextView
+        android:id="@+id/foodPriceTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs:1000"
+        android:textSize="18sp"
+        android:padding="8dp" />
+
+    <!-- Quantity Input -->
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Quantity"
+        android:layout_marginTop="8dp"
+        android:padding="8dp" />
+
+    <!-- Total Amount -->
+    <TextView
+        android:id="@+id/totalAmountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Amount: Rs.0"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:layout_marginTop="8dp" />
+
+    <!-- Buttons Section -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/conformButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Order"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel Order"
+            android:layout_marginStart="16dp"
+            android:padding="8dp" />
+    </LinearLayout>
+
+    <!-- View Order Button -->
+    <Button
+        android:id="@+id/viewOrderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Orders"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:textColor="@android:color/white"
+        android:padding="8dp" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_nav_menu" />
+
+</LinearLayout>
