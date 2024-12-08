@@ -28,25 +28,12 @@ View Orders: View all past and current orders with details using the RecyclerVie
 Cancel Order: If needed, cancel an order with a single click.
 Add a Current Location 
 
-![1](https://github.com/user-attachments/assets/c9cd260a-9b6f-49d5-9c35-f2ed3b5ffa47)
-![9](https://github.com/user-attachments/assets/cc5cf5fe-a6e1-43ba-b3e1-91dab028854b)
-![8](https://github.com/user-attachments/assets/258133ca-68c6-49fe-8374-2d9f09c38a1e)
-![7](https://github.com/user-attachments/assets/7bc27230-6963-4d9d-ba9b-622378b60b44)
-![6](https://github.com/user-attachments/assets/ccda1ae0-9cf5-4c37-9bb3-96de4d6ce3ab)
-![5](https://github.com/user-attachments/assets/053f56db-c17d-43ac-aea3-e1cb55bd5a03)
-![3](https://github.com/user-attachments/assets/2630905a-c0a4-4179-a68e-d3ccf1f0c445)
-![2](https://github.com/user-attachments/assets/822eec72-7627-449d-b4bb-ba431cc6d0ed)
-![1](https://github.com/user-attachments/assets/87b253a7-cdc6-455c-9f14-5e77df1e95ae)
-![18](https://github.com/user-attachments/assets/83d4c230-453c-4198-8710-fafef3bc5298)
-![17](https://github.com/user-attachments/assets/85000c2a-6300-46b4-b564-d5c38b068add)
-![16](https://github.com/user-attachments/assets/4127bd74-0e07-42f2-9bfb-41eedca7ab54)
-![15](https://github.com/user-attachments/assets/9d85bcce-050f-40b0-a789-cbabcc78f2a0)
-![14](https://github.com/user-attachments/assets/19c96a19-92e6-47e4-9fc6-fea812dec883)
-![13](https://github.com/user-attachments/assets/6c6821a4-4273-4fea-b663-4d6de6475805)
-![12](https://github.com/user-attachments/assets/4caae782-621d-4ef2-83a8-9ee76420a471)
-![11](https://github.com/user-attachments/assets/3e65e024-38a4-4403-a917-09125f1a0d11)
-![10](https://github.com/user-attachments/assets/d1b13275-e736-4fb0-b9fb-95404833563b)
+![15](https://github.com/user-attachments/assets/1a1664d6-659a-41b0-b0f3-dea4c160e92e) ![12](https://github.com/user-attachments/assets/4a2c797e-d87a-4811-bb2c-7a5152542fdc)
 
+![16](https://github.com/user-attachments/assets/9176f66c-b8f9-45ff-aeb5-7cd218f9fac4)
 
+![18](https://github.com/user-attachments/assets/b49ead4d-0657-4cf2-b049-292a14e2b0d3)
 
+![14](https://github.com/user-attachments/assets/f00cb3db-ae97-48da-8f43-b9235417aba4)![13](https://github.com/user-attachments/assets/8b2aeea4-fd85-495c-b933-57b5fa29f970)
 
+![17](https://github.com/user-attachments/assets/28157b44-a6a9-4bb5-a54b-ed9ba2e800da)
