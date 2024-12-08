@@ -28,7 +28,7 @@ View Orders: View all past and current orders with details using the RecyclerVie
 Cancel Order: If needed, cancel an order with a single click.
 Add a Current Location 
 
-![15](https://github.com/user-attachments/assets/1a1664d6-659a-41b0-b0f3-dea4c160e92e) ![12](https://github.com/user-attachments/assets/4a2c797e-d87a-4811-bb2c-7a5152542fdc)
+![15](https://github.com/user-attachments/assets/1a1664d6-659a-41b0-b0f3-dea4c160e92e)
 
 ![16](https://github.com/user-attachments/assets/9176f66c-b8f9-45ff-aeb5-7cd218f9fac4)
 
