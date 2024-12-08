@@ -1,8 +1,8 @@
 
-** Eatify App 🍽️**
+**Eatify App** 🍽️
 Eatify is an Android-based food ordering application that allows users to browse food items, place orders, view their order details, and manage their orders efficiently. The app uses Firebase Realtime Database to store and retrieve data, ensuring seamless synchronization and a smooth user experience.
 
-**Features 🚀**
+**Features** 🚀
 Food Ordering: Users can view the menu, select food items, and specify quantity for placing an order.
 Order Details: Dynamically displays the order details, including food name, price, quantity, and total cost.
 
@@ -12,7 +12,7 @@ Cancel Order: Allows users to cancel an order directly from the app.
 View Orders: Displays a list of all orders in a scrollable RecyclerView.
 Navigation: Integrated with a BottomNavigationView to easily switch between different sections (e.g., Home, Orders, Profile).
 
-**Tech Stack 💻**
+**Tech Stack** 💻
 Frontend: Android (Java)
 Backend: Firebase Realtime Database
 UI Components: RecyclerView, BottomNavigationView, Toast messages
@@ -20,7 +20,7 @@ UI Components: RecyclerView, BottomNavigationView, Toast messages
 **Build the app**
 Build and run the app on an Android device or emulator.
 
-**How It Works 🤔**
+**How It Works** 🤔
 Login the App
 Browse Food Menu: Navigate to the food menu and select an item.
 Place Order: Enter the quantity and confirm the order.
